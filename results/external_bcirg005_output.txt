@@ -1,8 +1,8 @@
-[1] BCIRG-005 early neutropenia     : 50/64 = 78.1% later grade>=3 neutropenia
-[1] BCIRG-005 no early neutropenia  : 459/1144 = 40.1% later grade>=3 neutropenia
-[2] CALGB 40603  n=366 events=127  rule sensitivity=0.520  specificity=0.791
-[2] BCIRG-005    n=1171 events=532  rule sensitivity=0.395  specificity=0.773
-[3] cross-trial AUC
+[1] CALGB 40603  n=366 events=127  rule sensitivity=0.520  specificity=0.791
+    later risk: rule positive 66/116 = 56.9%   rule negative 61/250 = 24.4%
+[1] BCIRG-005    n=1171 events=532  rule sensitivity=0.395  specificity=0.773
+    later risk: rule positive 210/355 = 59.2%   rule negative 322/816 = 39.5%
+[2] cross-trial AUC
       direction  features model   AUC
 CALGB -> BCIRG     N+L+P    LR 0.567
 BCIRG -> CALGB     N+L+P    LR 0.664
@@ -20,7 +20,7 @@ BCIRG -> CALGB N+L+P+age    GB 0.654
 direction                   
 BCIRG -> CALGB  0.647  0.684
 CALGB -> BCIRG  0.530  0.611
-[4] CALGB -> BCIRG LR: threshold set for sensitivity 0.80 in training -> test sensitivity 1.00, specificity 0.00
-[4] CALGB -> BCIRG RF: threshold set for sensitivity 0.80 in training -> test sensitivity 0.50, specificity 0.72
-[4] BCIRG -> CALGB LR: threshold set for sensitivity 0.80 in training -> test sensitivity 1.00, specificity 0.00
-[4] BCIRG -> CALGB RF: threshold set for sensitivity 0.80 in training -> test sensitivity 0.57, specificity 0.72
+[3] CALGB -> BCIRG LR: threshold set for sensitivity 0.80 in training -> test sensitivity 1.00, specificity 0.00
+[3] CALGB -> BCIRG RF: threshold set for sensitivity 0.80 in training -> test sensitivity 0.50, specificity 0.72
+[3] BCIRG -> CALGB LR: threshold set for sensitivity 0.80 in training -> test sensitivity 1.00, specificity 0.00
+[3] BCIRG -> CALGB RF: threshold set for sensitivity 0.80 in training -> test sensitivity 0.57, specificity 0.72
