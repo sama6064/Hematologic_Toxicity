@@ -1,0 +1,5 @@
+method,mean,std,min,max,count
+1) Non-nested: tuned and scored on the same folds,0.736,0.004,0.731,0.738,3
+2) Hold-out 80/20 (10 splits),0.708,0.057,0.615,0.785,10
+3) Nested CV (one seed),0.713,,0.713,0.713,1
+4) Repeated nested CV (3 seeds),0.725,,0.725,0.725,1

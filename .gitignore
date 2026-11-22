@@ -1,0 +1,4 @@
+data/
+*.sas7bdat
+.ipynb_checkpoints/
+__pycache__/
