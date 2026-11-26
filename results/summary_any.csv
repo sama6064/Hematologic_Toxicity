@@ -1,0 +1,9 @@
+,AUC,Accuracy,Sensitivity,Specificity,Precision,F1,F2
+Arm only,0.624,0.635,0.573,0.72,0.734,0.644,0.599
+Rule: any AE grade >=2 by day 28,0.569,0.59,0.713,0.424,0.626,0.667,0.694
+Best preprocessing: median + minmax scaler,0.69,0.649,0.581,0.742,0.753,0.655,0.608
+Best simple: LR ElasticNet,0.679,0.616,0.582,0.662,0.7,0.635,0.602
+Best ensemble: Random Forest,0.69,0.638,0.592,0.699,0.727,0.652,0.614
+Best reduction: No reduction (all features),0.676,0.632,0.614,0.657,0.708,0.657,0.631
+Best imbalance: SMOTE + Random Forest,0.695,0.634,0.614,0.662,0.71,0.659,0.631
+Final (nested selection),0.683,0.622,0.567,0.694,0.715,0.632,0.592

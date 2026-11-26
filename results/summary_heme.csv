@@ -2,8 +2,8 @@
 Arm only,0.683,0.689,0.672,0.698,0.562,0.612,0.647
 Rule: ANC or platelet grade >=1 by day 28,0.656,0.694,0.515,0.797,0.595,0.552,0.529
 Best preprocessing: median + ordinal categories,0.737,0.661,0.659,0.662,0.532,0.586,0.627
-Best simple: LR L1 (Lasso),0.733,0.67,0.667,0.672,0.542,0.594,0.635
+Best simple: LR L1 (Lasso),0.733,0.671,0.669,0.672,0.543,0.596,0.637
 Best ensemble: Random Forest,0.738,0.646,0.664,0.635,0.512,0.578,0.627
 Best reduction: SelectKBest ANOVA F,0.744,0.671,0.639,0.69,0.545,0.587,0.617
 Best imbalance: class_weight balanced,0.734,0.662,0.59,0.704,0.536,0.56,0.577
-Final (nested selection),0.737,0.665,0.692,0.649,0.533,0.601,0.652
+Final (nested selection),0.737,0.662,0.697,0.642,0.53,0.601,0.655

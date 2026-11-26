@@ -1,0 +1,4 @@
+,Raw,Platt
+AUC,0.69,0.684
+Brier,0.227,0.221
+Calibration slope,1.387,0.885

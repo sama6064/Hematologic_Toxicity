@@ -1,12 +1,12 @@
-# Early prediction of severe hematologic toxicity after day 28 (CALGB 40603)
+# Early prediction of severe toxicity after day 28 (CALGB 40603)
 
 Code for *Early Prediction of Severe Hematologic Toxicity After Day 28 of Neoadjuvant Chemotherapy: A Landmark Analysis of CALGB 40603 Trial Data*.
 
 | File | Content |
 |---|---|
-| `RAQEEB_Hematologic_Toxicity.ipynb` | Landmark cohort, features, nested cross-validation and all experiments reported in the paper. Saved with outputs. |
-| `external_bcirg005.py` | External evaluation in the BCIRG-005 control arm. |
-| `results/` | CSV outputs of the notebook and the output of the external script. |
+| `RAQEEB_Toxicity_Landmark.ipynb` | Landmark cohorts, features, nested cross-validation and every experiment in the paper, run for the hematologic composite (`heme`, primary) and any grade ≥3 AE (`any`). Section 20 answers RQ6: specific outcomes vs. any grade ≥3 AE, each with baseline variables alone and with early AEs. Saved with outputs. |
+| `external_bcirg005.py` | External consistency check in the BCIRG-005 control arm. |
+| `results/` | CSV outputs of the notebook (`res_heme_*`, `res_any_*`, `summary_*`, `rq6_specific_vs_any.csv`) and the output of the external script. |
 
 ## Data
 
@@ -21,8 +21,8 @@ data/bcirg005/{hematol,hemhdr,ae,demog,rando}.sas7bdat      BCIRG-005 (Sanofi)
 
 ```
 pip install -r requirements.txt
-jupyter nbconvert --to notebook --execute RAQEEB_Hematologic_Toxicity.ipynb
+jupyter nbconvert --to notebook --execute RAQEEB_Toxicity_Landmark.ipynb
 python external_bcirg005.py
 ```
 
-The notebook takes about 40 minutes on 2 CPU cores. Seeds are fixed.
+The notebook takes about two hours on 2 CPU cores. Seeds are fixed for data splitting and randomized learners; the L1 and elastic-net solvers (liblinear, saga) are not seeded, so a re-run can differ in the third decimal for those models.
