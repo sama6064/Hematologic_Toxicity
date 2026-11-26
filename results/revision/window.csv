@@ -1,0 +1,5 @@
+analysis,n,events,AUC,AUC_sd,Sensitivity,Specificity,Brier
+Event after day 28 (main),366,134,0.737,0.002,0.697,0.645,0.211
+Fixed window: event on days 29-140,366,133,0.725,0.019,0.654,0.674,0.212
+Treatment-end code 18 only,290,111,0.704,0.008,0.631,0.693,0.218
+Last AE report after day 56,332,134,0.739,0.021,0.704,0.685,0.21

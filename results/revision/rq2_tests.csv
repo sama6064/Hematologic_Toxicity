@@ -1,0 +1,6 @@
+comparison,AUC,AUC_ref,dAUC,lo,hi,p
+LR L1 (Lasso) vs LR L2,0.733,0.721,0.012,-0.008,0.032,0.25
+Random Forest vs LR L2,0.738,0.721,0.017,-0.003,0.036,0.102
+Stacking (LR+RF+GB+SVM → LR) vs LR L2,0.722,0.721,0.001,-0.017,0.019,0.902
+Family chosen in folds vs LR L2,0.737,0.721,0.016,-0.002,0.033,0.09
+Random Forest vs LR L1,0.738,0.733,0.005,-0.013,0.022,0.666
