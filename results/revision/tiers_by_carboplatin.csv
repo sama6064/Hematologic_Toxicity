@@ -1,0 +1,7 @@
+carboplatin,tier,mean n,mean events,event rate
+no,1-low,129.667,21.333,0.164
+no,2-intermediate,67.0,20.0,0.298
+no,3-high,9.333,2.667,0.311
+yes,1-low,1.0,0.5,0.5
+yes,2-intermediate,45.0,18.667,0.415
+yes,3-high,114.333,71.0,0.621

@@ -1,0 +1,4 @@
+comparator,AUC_comparator,AUC_model,dAUC,lo,hi,p
+Arm only,0.683,0.737,0.054,0.017,0.091,0.004
+Early-cytopenia rule,0.656,0.737,0.081,0.035,0.122,0.0
+Arm + early cytopenia grades (LR),0.724,0.737,0.013,-0.009,0.036,0.216
