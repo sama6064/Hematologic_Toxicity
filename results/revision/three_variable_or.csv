@@ -1,0 +1,5 @@
+,odds ratio,2.5%,97.5%
+carbo,3.23,1.98,5.26
+e_max_neutropenia_h,1.74,1.21,2.67
+e_max_thrombocytopenia_h,1.88,1.04,4.19
+intercept (log-odds),-1.461,,

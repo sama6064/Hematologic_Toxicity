@@ -1,0 +1,6 @@
+,three-variable LR,L2 LR (all features)
+AUC,0.722,0.721
+slope,1.546,1.527
+CITL,0.003,
+EO,0.998,
+Brier,0.2,

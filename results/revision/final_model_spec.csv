@@ -1,0 +1,7 @@
+,0
+family,RandomForestClassifier
+model__min_samples_leaf,20
+inner_cv_auc,0.74
+youden_threshold,0.47
+tier_cut_low,0.403
+tier_cut_high,0.526

@@ -1,0 +1,17 @@
+,value
+Patients in the dataset,443
+Grade >=3 hematologic event on or before day 28 (excluded),77
+At risk at day 28,366
+Events after day 28,134
+At risk with no AE report after day 28,24
+  of whom events,0
+At risk with < 4 paclitaxel doses recorded,17
+RQ6 cohort heme: at risk / events,366 / 134
+RQ6 cohort any: at risk / events,310 / 178
+RQ6 cohort Neutropenia: at risk / events,372 / 120
+RQ6 cohort Leukopenia: at risk / events,430 / 56
+RQ6 cohort Thrombocytopenia: at risk / events,436 / 52
+RQ6 cohort Febrile neutropenia: at risk / events,441 / 56
+RQ6 cohort Infection: at risk / events,435 / 77
+RQ6 cohort Fatigue: at risk / events,437 / 51
+RQ6 cohort Gastrointestinal: at risk / events,437 / 43
