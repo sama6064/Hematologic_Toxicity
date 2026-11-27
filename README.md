@@ -28,3 +28,7 @@ python external_bcirg005.py
 The notebook takes about two and a half hours on 2 CPU cores. Seeds are fixed for data splitting and randomized learners. The liblinear and saga solvers draw from NumPy's global generator, which is seeded only from Section 22 onward, so a re-run of Sections 1–21 can differ in the third decimal for the L1 and elastic-net models.
 
 Sections 1–21 were executed first; Sections 22–29 were executed later in a separate session after re-running the setup cells (Sections 0–4 and the configuration definitions), which is why their execution counts continue from the end of Section 21 (Sections 28 and 29 in later sessions).
+
+## Supplementary material
+
+`supplementary/` holds the TRIPOD+AI checklist, the predictor definitions with missingness and means by outcome, and the specification of the final model (family, hyperparameters, threshold, tier cut-points and input importances).
